@@ -1,10 +1,14 @@
 import './App.css';
+import Sidebar from './side-bar/side-bar';
 import Header from './header/header';
 
 function App() {
   return (
-    <Header/>
-  );
-}
-
+    <main>
+      <Sidebar />,
+      <Header />
+    </main>
+    );
+  }
+  
 export default App;
