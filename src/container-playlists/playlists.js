@@ -16,6 +16,8 @@ import Img13 from "../assets/playlist/13.jpeg";
 import Img14 from "../assets/playlist/14.jpeg";
 import Img15 from "../assets/playlist/15.jpeg";
 
+import "./clock"
+
 
 const Playlists = () => {
   return (
