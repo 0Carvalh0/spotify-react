@@ -1,14 +1,16 @@
-import './App.css';
-import Sidebar from './side-bar/side-bar';
-import Header from './header/header';
+import "./App.css";
+import Sidebar from "./side-bar/side-bar";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 function App() {
   return (
-    <main>
+    <main className="main-container">
       <Sidebar />,
-      <Header />
+      <Header />,
+      <Footer />
     </main>
-    );
-  }
-  
+  );
+}
+
 export default App;
