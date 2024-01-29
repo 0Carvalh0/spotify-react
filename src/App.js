@@ -1,5 +1,5 @@
 import "./App.css";
-import "./media-queries.css"
+import "./media-queries.css";
 import Sidebar from "./side-bar/side-bar";
 import Header from "./header/header";
 import Playlists from "./container-playlists/playlists"
