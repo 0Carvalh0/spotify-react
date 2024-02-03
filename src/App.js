@@ -1,9 +1,11 @@
+import React from "react";
 import "./App.css";
 import "./media-queries.css";
-import Sidebar from "./side-bar/side-bar";
-import Header from "./header/header";
-import Playlists from "./container-playlists/playlists"
-import Footer from "./footer/footer";
+import Sidebar from "./side-bar/side-bar.js";
+import Header from "./header/header.js";
+import Playlists from "./container-playlists/playlists.js";
+import Footer from "./footer/footer.js";
+// import "./clock.js";
 
 function App() {
   return (
