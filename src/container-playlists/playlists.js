@@ -16,120 +16,117 @@ import Img13 from "../assets/playlist/13.jpeg";
 import Img14 from "../assets/playlist/14.jpeg";
 import Img15 from "../assets/playlist/15.jpeg";
 
-import "./clock"
-
-
 const Playlists = () => {
   return (
-    <div class="playlist-container">
-      <div class="result-playlists">
-        <div class="playlist">
-          <h1 class="greeting"></h1>
-          <h2 class="session">Navegar por todas as seções</h2>
+    <div className="playlist-container">
+      <div className="result-playlists">
+        <div className="playlist">
+          <h1 id="greeting"></h1>
+          <h2 className="session">Navegar por todas as seções</h2>
         </div>
-        <div class="offer__scroll-container">
-          <div class="offer__list">
-            <section class="offer__list-item">
-              <a href="" class="cards">
-                <div class="cards card1">
+        <div className="offer__scroll-container">
+          <div className="offer__list">
+            <section className="offer__list-item">
+              <a href="" className="cards">
+                <div className="cards card1">
                   <img src={Img01} alt="" />
                   <span>Boas festas</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card2">
+              <a href="" className="cards">
+                <div className="cards card2">
                   <img src={Img02} alt="" />
                   <span>Feitos para você</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card3">
+              <a href="" className="cards">
+                <div className="cards card3">
                   <img src={Img03} alt="" />
                   <span>Lançamentos</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card4">
+              <a href="" className="cards">
+                <div className="cards card4">
                   <img src={Img04} alt="" />
                   <span>Creators</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card5">
+              <a href="" className="cards">
+                <div className="cards card5">
                   <img src={Img05} alt="" />
                   <span>Para treinar</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card6">
+              <a href="" className="cards">
+                <div className="cards card6">
                   <img src={Img06} alt="" />
                   <span>Podcasts</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card7">
+              <a href="" className="cards">
+                <div className="cards card7">
                   <img src={Img07} alt="" />
                   <span>Sertanejo</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card8">
+              <a href="" className="cards">
+                <div className="cards card8">
                   <img src={Img08} alt="" />
                   <span>Samba e pagode</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card9">
+              <a href="" className="cards">
+                <div className="cards card9">
                   <img src={Img09} alt="" />
                   <span>Funk</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card10">
+              <a href="" className="cards">
+                <div className="cards card10">
                   <img src={Img10} alt="" />
                   <span>MPB</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card11">
+              <a href="" className="cards">
+                <div className="cards card11">
                   <img src={Img11} alt="" />
                   <span>Rock</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card12">
+              <a href="" className="cards">
+                <div className="cards card12">
                   <img src={Img12} alt="" />
                   <span>Hip Hop</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card13">
+              <a href="" className="cards">
+                <div className="cards card13">
                   <img src={Img13} alt="" />
                   <span>Indie</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card14">
+              <a href="" className="cards">
+                <div className="cards card14">
                   <img src={Img14} alt="" />
                   <span>Relax</span>
                 </div>
               </a>
 
-              <a href="" class="cards">
-                <div class="cards card15">
+              <a href="" className="cards">
+                <div className="cards card15">
                   <img src={Img15} alt="" />
                   <span>Música Latina</span>
                 </div>

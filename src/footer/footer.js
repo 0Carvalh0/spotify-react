@@ -3,16 +3,16 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="footer__content">
-        <p class="text title">TESTAR O PREMIUM DE GRAÇA</p>
-        <p class="text subtitle">
+    <footer className="footer">
+      <div className="footer__content">
+        <p className="text title">TESTAR O PREMIUM DE GRAÇA</p>
+        <p className="text subtitle">
           Inscreva-se para curtir música ilimitada e podcasts só com alguns
           anúncios. Não precisa de cartão de crédito
         </p>
       </div>
-      <div class="button">
-        <button class="footer__button">Inscreva-se grátis</button>
+      <div className="button">
+        <button className="footer__button">Inscreva-se grátis</button>
       </div>
     </footer>
   );
