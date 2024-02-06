@@ -1,10 +1,10 @@
-let greeting = document.getElementById("greeting");
+const greetingBox = document.getElementById("greeting");
 let hora = new Date().getHours();
 
 if (hora >= 5 && hora <= 12) {
-  greeting.textContent = "Bom Dia";
+  greetingBox.textContent = "Bom Dia";
 } else if (hora >= 12 && hora <= 18) {
-  greeting.textContent = "Boa Tarde";
+  greetingBox.textContent = "Boa Tarde";
 } else {
-  greeting.textContent = "Boa Noite";
+  greetingBox.textContent = "Boa Noite";
 }

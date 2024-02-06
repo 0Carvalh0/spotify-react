@@ -19,7 +19,7 @@ const Header = () => {
           <input
             type="text"
             id="search-input"
-            maxlength="800"
+            maxLength="800"
             placeholder="O que você quer ouvir?"
           />
         </div>

@@ -23,6 +23,11 @@ const Playlists = () => {
         <div className="playlist">
           <h1 id="greeting"></h1>
           <h2 className="session">Navegar por todas as seções</h2>
+    <div className="playlist-container">
+      <div className="result-playlists">
+        <div className="playlist">
+          <h1 id="greeting"></h1>
+          <h2 className="session">Navegar por todas as seções</h2>
         </div>
         <div className="offer__scroll-container">
           <div className="offer__list">
